@@ -12,3 +12,16 @@ the above command will make a remote connection with the github repo
 
 to pull everything on your repo
 >>git pull origin main
+>>git status (this command will tell the name of the files not in git as in red colour)
+
+if you want to add these files 
+>>git add (file name)
+it will look like 
+>>git add ayush.txt
+>>git add . (this will add all the files in the git repo)
+
+the whole set of commands will look like this 
+>>git add 
+>>git status
+>>git commit -m "Commit Message"
+>>git push

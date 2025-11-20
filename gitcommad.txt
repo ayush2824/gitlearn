@@ -1,0 +1,14 @@
+for first time command to configure github in our system 
+>> git config --global user.name "ayush2824"
+>> git config --global user.email "ayush2428rana@gmail.com"
+optional >> git config --global color.ui auto
+
+Mandatory command 
+>> git init
+after this command a .git file will be created that you can see in the view hidden folders
+>> git remote add origin (repo url) it will look like this
+>> git remote add origin https://github.com/ayush2824/gitlearn.git
+the above command will make a remote connection with the github repo
+
+to pull everything on your repo
+>>git pull origin main
